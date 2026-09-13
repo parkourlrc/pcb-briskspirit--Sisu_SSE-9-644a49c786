@@ -1,0 +1,200 @@
+(footprint "TE_2040852-1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TE Connectivity 2040852-1 Y-clip PCB shield spring contact, 3.4 x 2.0 x 0.8 mm")
+	(tags "shield spring contact grounding EMC")
+	(property "Reference" "REF**"
+		(at -0.265 -2.315 0)
+		(layer "F.SilkS")
+		(uuid "f7dba2f5-2632-49d0-88dc-4b265623b395")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TE_2040852-1"
+		(at 4.13 2.205 0)
+		(layer "F.Fab")
+		(uuid "61d922ff-4f18-41bc-a991-85a377003517")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "2040852-1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b348de6d-6599-4adf-b142-1a3275b30434")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "TE Connectivity 2040852-1 Y-clip PCB shield spring contact, 0.8 mm uncompressed height"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9ebfd41-82a8-4f7d-884d-7de9477d9a41")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.65 -1)
+		(end -2.65 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5912cb70-fe54-4f89-9019-ecd8eed235f4")
+	)
+	(fp_line
+		(start -2.65 1)
+		(end -1.1 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec5feb57-2a92-4e86-837f-d769d8bf407d")
+	)
+	(fp_line
+		(start -1.1 -1)
+		(end -2.65 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46eed22f-35a7-47c3-9c3c-a49b93a5d403")
+	)
+	(fp_line
+		(start 0.75 -0.15)
+		(end 0.75 0.15)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a2523a4-ead9-4778-83ad-4c9a0c2b46eb")
+	)
+	(fp_line
+		(start -2.9 -1.35)
+		(end 1 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7129f1ff-198c-46f8-ab75-30374087dac7")
+	)
+	(fp_line
+		(start -2.9 1.35)
+		(end -2.9 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b759d1d-7368-4410-951e-fcc52f2aa43e")
+	)
+	(fp_line
+		(start 1 -1.35)
+		(end 1 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50a6ca18-1a33-49a3-b85f-69f1430026dc")
+	)
+	(fp_line
+		(start 1 1.35)
+		(end -2.9 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b8158291-bbdd-490f-ae9f-7502795c0b60")
+	)
+	(fp_line
+		(start -2.65 -1)
+		(end 0.75 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7bcf229e-2076-4ea8-b93c-8daa4139835c")
+	)
+	(fp_line
+		(start -2.65 1)
+		(end -2.65 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "257d8468-6e38-4f6d-a2fa-8208fb2be640")
+	)
+	(fp_line
+		(start 0.75 -1)
+		(end 0.75 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46de4df6-b501-418b-b035-bcb9918bc238")
+	)
+	(fp_line
+		(start 0.75 1)
+		(end -2.65 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c4c9e33-b69c-40ae-a577-172d6d3eb71b")
+	)
+	(pad "1" smd rect
+		(at 0 -0.8)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c4229212-2213-4f17-b2a9-9804d17a45bc")
+	)
+	(pad "2" smd rect
+		(at 0 0.8)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "bb01c79b-b0f3-43f7-bd72-b820635a7cc0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib_10/3dmodels/2040852-1.step"
+		(offset
+			(xyz -2.67 0 0.06)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

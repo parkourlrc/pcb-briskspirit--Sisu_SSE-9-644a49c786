@@ -1,0 +1,191 @@
+(footprint "LTC2959IDDB_TRMPBF"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Analog Devices LTC2959, DDB-10 2x3 mm, 0.5 mm pitch; exposed package pad intentionally not soldered")
+	(tags "LTC2959 DDB DFN-10 2x3mm 0.5mm")
+	(property "Reference" "REF**"
+		(at 0 -2.35 0)
+		(layer "F.SilkS")
+		(uuid "e19be577-b119-40bd-ba43-3b7b83a76c2a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LTC2959IDDB#TRMPBF"
+		(at 0 2.35 0)
+		(layer "F.Fab")
+		(uuid "30e60038-7d12-4d27-945c-6a35cc8ed818")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62f85d7e-aef2-4210-9070-020007016dd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb115afa-e45e-457e-aafc-531fc80b0d31")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1 -1.62)
+		(end 1 -1.62)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15ebaee8-9095-433b-a703-aac603233c3e")
+	)
+	(fp_line
+		(start -1 1.62)
+		(end 1 1.62)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49d97a8a-2d4a-4978-9cdb-0f4b9c45dbca")
+	)
+	(fp_poly
+		(pts
+			(xy -1.55 -1.25) (xy -1.3 -1.37) (xy -1.3 -1.13)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "62b07d6e-9bdb-4511-bb66-06006bfc4a87")
+	)
+	(fp_rect
+		(start -1.45 -1.75)
+		(end 1.45 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5d2388f8-8156-4cf9-8aff-d510c57fcf37")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -1.25) (xy -0.75 -1.5) (xy 1 -1.5) (xy 1 1.5) (xy -1 1.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2dd6b2cb-6fea-48ec-a384-4888211b1cea")
+	)
+	(pad "1" smd roundrect
+		(at -0.925 -1)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "a3d1d13d-8430-4da3-826d-8cf77779e781")
+	)
+	(pad "2" smd roundrect
+		(at -0.925 -0.5)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "c629b12d-e080-4fe7-ae2a-720ee1c94866")
+	)
+	(pad "3" smd roundrect
+		(at -0.925 0)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "aa4192e0-4262-4520-92c4-fdc153a1e341")
+	)
+	(pad "4" smd roundrect
+		(at -0.925 0.5)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "9c96215f-6bad-4ffd-bd7d-16afde330b63")
+	)
+	(pad "5" smd roundrect
+		(at -0.925 1)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "4bdb4ff2-e430-4728-991d-ad3a4ac84435")
+	)
+	(pad "6" smd roundrect
+		(at 0.925 1)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "b9cab7c1-45d7-4989-875f-92806b28a1f4")
+	)
+	(pad "7" smd roundrect
+		(at 0.925 0.5)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "91e47948-ff64-4d55-b544-063965e3741d")
+	)
+	(pad "8" smd roundrect
+		(at 0.925 0)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "564abb91-bd39-4198-820d-5123b0f94806")
+	)
+	(pad "9" smd roundrect
+		(at 0.925 -0.5)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "4a7e60a0-4e20-4e85-9bb2-09a3b6a1d8b9")
+	)
+	(pad "10" smd roundrect
+		(at 0.925 -1)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "fc775d07-54ac-4bb6-b83d-d7634aeb3ad9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib_10/3dmodels/LTC2959IDDB_TRMPBF.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

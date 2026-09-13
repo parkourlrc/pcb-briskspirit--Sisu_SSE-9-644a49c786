@@ -1,0 +1,98 @@
+(footprint "Speaker_contact_pads"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aa2cee81-7f38-4e82-82dc-973fd000b0e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Speaker_contact_pads"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "720f2009-fd62-45b0-9607-185271e03eff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f5aa417-f8cc-4c75-9ae1-d7de320fb9d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf396230-b8e5-4ad5-bff8-9ecf83123cd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ffa81b6a-ba70-4c48-9743-10de01694ae4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "3e7e5bfc-260e-48cc-abda-416e4bb97505")
+	)
+	(pad "2" smd custom
+		(at 1.5 -1.5)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center -1.5 1.5)
+				(end 0.45 1.5)
+				(width 1.5)
+				(fill no)
+			)
+		)
+		(uuid "c546ed6a-8460-4301-afc1-b23f36cf05d5")
+	)
+	(embedded_fonts no)
+)

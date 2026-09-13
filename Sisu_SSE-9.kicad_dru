@@ -1,0 +1,28 @@
+(version 1)
+
+# The zebra elastomer needs one continuous exposed contact window.
+(rule "Intentional display zebra mask opening"
+  (constraint bridged_mask)
+  (condition "A.Reference == 'J_LCD1' || B.Reference == 'J_LCD1'")
+  (severity ignore))
+
+# These six edge-adjacent copper features reproduce the original Nokia board.
+# JLCPCB may trim them to the routed outline; that is acceptable here.
+(rule "Retain inherited edge copper"
+  (constraint edge_clearance)
+  (condition "(A.Position_X == 22.191545mm && A.Position_Y == 67.450992mm) || (B.Position_X == 22.191545mm && B.Position_Y == 67.450992mm) || (A.Position_X == 59.282062mm && A.Position_Y == 92.731118mm) || (B.Position_X == 59.282062mm && B.Position_Y == 92.731118mm) || (A.NetName == 'GND' && A.Layer == 'F.Cu' && A.Position_X > 64mm && A.Position_X < 66mm && A.Position_Y > 67mm && A.Position_Y < 69mm) || (B.NetName == 'GND' && B.Layer == 'F.Cu' && B.Position_X > 64mm && B.Position_X < 66mm && B.Position_Y > 67mm && B.Position_Y < 69mm) || (A.Position_X == 56.31862mm && A.Position_Y == 51.407617mm) || (B.Position_X == 56.31862mm && B.Position_Y == 51.407617mm) || (A.Position_X == 56.117258mm && A.Position_Y == 148.702455mm) || (B.Position_X == 56.117258mm && B.Position_Y == 148.702455mm) || (A.Position_X == 32.049208mm && A.Position_Y == 148.791185mm) || (B.Position_X == 32.049208mm && B.Position_Y == 148.791185mm)")
+  (severity ignore))
+
+# JLC06101H-3313: L2/L5 are asymmetric striplines with 0.0918 mm and
+# 0.25 mm dielectric spacing. 0.10 mm traces with a 0.12 mm edge gap
+# calculate to approximately 90.3 ohms differential.
+(rule "USB 90 ohm differential geometry on L2 and L5"
+  (condition "A.hasNetclass('USB') && (A.Layer == 'In1.Cu' || A.Layer == 'In4.Cu')")
+  (constraint track_width (min 0.10mm) (opt 0.10mm) (max 0.10mm))
+  (constraint diff_pair_gap (min 0.11mm) (opt 0.12mm) (max 0.13mm))
+  (constraint diff_pair_uncoupled (max 2mm))
+  (constraint skew (max 0.5mm)))
+
+(rule "Keep USB off L3 and L4"
+  (condition "A.hasNetclass('USB') && (A.Layer == 'In2.Cu' || A.Layer == 'In3.Cu')")
+  (constraint disallow track))

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "debug_pogo_adapter") (type "KiCad") (uri "${KIPRJMOD}/lib/debug_pogo_adapter.pretty") (options "") (descr "Project-local debug_pogo_adapter footprints"))
+)

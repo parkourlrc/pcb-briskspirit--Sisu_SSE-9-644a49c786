@@ -1,0 +1,246 @@
+(footprint "I-PEX_MHF4L_20579-001E"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "I-PEX MHF 4L receptacle 20579-001E, 2.0x2.0mm, 0.6mm unmated height; manufacturer footprint and 0.12mm stencil pattern from drawing 20579 rev.13")
+	(tags "I-PEX MHF4L micro coaxial RF connector 20579")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "I-PEX_MHF4L_20579-001E"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.i-pex.com/sites/default/files/downloads/pdf/2D_MHF_4L_RECEPTACLE_20579C13.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "I-PEX MHF 4L 50-ohm micro-coaxial receptacle"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers yes)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.45 0.45)
+				(thickness 0.07)
+			)
+		)
+	)
+	(fp_rect
+		(start -0.19 0.82)
+		(end 0.19 1.2)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start -0.18 -1.2)
+		(end 0.18 -0.84)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start -1.25 -0.45)
+		(end -0.75 0.45)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+	)
+	(fp_rect
+		(start 0.75 -0.45)
+		(end 1.25 0.45)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+	)
+	(pad "1" smd rect
+		(at 0 1)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+	)
+	(pad "1" smd rect
+		(at 0 -0.975)
+		(size 0.6 0.55)
+		(layers "F.Cu" "F.Mask")
+	)
+	(pad "2" smd custom
+		(at -1 0)
+		(size 0.5 1.58)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.25 0.19)
+					(xy 0.33 0.27)
+					(xy 0.33 0.79)
+					(xy 0.25 0.79)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 0.25 -0.79)
+					(xy 0.33 -0.79)
+					(xy 0.33 -0.27)
+					(xy 0.25 -0.19)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(pad "2" smd custom
+		(at 1 0)
+		(size 0.5 1.58)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.25 0.19)
+					(xy -0.33 0.27)
+					(xy -0.33 0.79)
+					(xy -0.25 0.79)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.25 -0.79)
+					(xy -0.33 -0.79)
+					(xy -0.33 -0.27)
+					(xy -0.25 -0.19)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(name "connector_body_keepout")
+		(hatch edge 0.25)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.1)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -0.67 0.75)
+				(xy -0.67 0.27)
+				(xy -0.75 0.19)
+				(xy -0.75 -0.19)
+				(xy -0.67 -0.27)
+				(xy -0.67 -0.7)
+				(xy 0.67 -0.7)
+				(xy 0.67 -0.27)
+				(xy 0.75 -0.19)
+				(xy 0.75 0.19)
+				(xy 0.67 0.27)
+				(xy 0.67 0.75)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,241 @@
+(footprint "TPS22919DCK"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Texas Instruments DCK (SOT-23-THIN / SC-70-6), 1.25 x 2.00 mm")
+	(tags "DCK SC-70-6 SOT-363 TPS22919")
+	(property "Reference" "REF**"
+		(at 0 -2.05 0)
+		(layer "F.SilkS")
+		(uuid "1314b425-2de8-4096-94cf-805f806b2dc9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS22919DCK"
+		(at 0 2.05 0)
+		(layer "F.Fab")
+		(uuid "7bfb1e6d-50f1-4036-bd70-99d0900d678c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1523b58-aaf9-44ac-828b-39f8835f299a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f7846ef-d4c9-40e5-9934-ede6b2d5797d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.625 -1.17)
+		(end 0.625 -1.17)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fbc8b21-c752-4229-a5ff-6e9ffe271e8d")
+	)
+	(fp_line
+		(start -0.625 1.17)
+		(end 0.625 1.17)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "faaed036-c95f-4fb1-ba15-0caa4d6b3e7a")
+	)
+	(fp_poly
+		(pts
+			(xy -1.72 -0.86) (xy -1.48 -0.98) (xy -1.48 -0.74)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "75377977-8334-462e-9da4-2fc73425754a")
+	)
+	(fp_line
+		(start -1.805 -1.25)
+		(end 1.805 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14771430-0c6a-4165-b17f-8b88851e0dcc")
+	)
+	(fp_line
+		(start -1.805 1.25)
+		(end -1.805 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7315cde-6b31-4d48-8260-fb9bb389ffeb")
+	)
+	(fp_line
+		(start 1.805 -1.25)
+		(end 1.805 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8583b0a-0947-4dcd-978f-9eb77aad4efc")
+	)
+	(fp_line
+		(start 1.805 1.25)
+		(end -1.805 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "abc58faa-69f3-4feb-bd16-81168cfc10f4")
+	)
+	(fp_line
+		(start -0.625 -0.65)
+		(end -0.275 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05ff7e6e-c86d-4c0b-88e3-da78f31ec981")
+	)
+	(fp_line
+		(start -0.625 1)
+		(end -0.625 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8faed930-074c-4268-83de-d8eabf91d6c3")
+	)
+	(fp_line
+		(start -0.275 -1)
+		(end 0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d21458b9-0003-4ce5-8efa-934ab3aa6e9c")
+	)
+	(fp_line
+		(start 0.625 -1)
+		(end 0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b43f493-f230-4fca-9f4d-ef95487404a2")
+	)
+	(fp_line
+		(start 0.625 1)
+		(end -0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3f4d150-f718-482c-a950-9e715744f7ea")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "dc12752e-71a9-4c01-a056-91fc77a06b37")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.96 -0.65)
+		(size 1.19 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "dfb6d969-ccfe-4897-bdbd-e95a30a304db")
+	)
+	(pad "2" smd roundrect
+		(at -0.96 0)
+		(size 1.19 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "6646fee3-6639-4a48-bb2f-0f75b111a248")
+	)
+	(pad "3" smd roundrect
+		(at -0.96 0.65)
+		(size 1.19 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "4811d8c8-5963-4d81-b738-e418ab46296e")
+	)
+	(pad "4" smd roundrect
+		(at 0.96 0.65)
+		(size 1.19 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "c57881bb-9092-46f7-ba70-61f9286c31b0")
+	)
+	(pad "5" smd roundrect
+		(at 0.96 0)
+		(size 1.19 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "9f527ad5-edcb-457c-a7df-c1612619dd50")
+	)
+	(pad "6" smd roundrect
+		(at 0.96 -0.65)
+		(size 1.19 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "9ab4f0ae-5d95-4640-8c5c-5853c246bf82")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib_10/3dmodels/TPS22919DCK.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

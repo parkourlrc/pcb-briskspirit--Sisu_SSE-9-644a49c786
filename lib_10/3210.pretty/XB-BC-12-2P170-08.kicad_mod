@@ -1,0 +1,284 @@
+(footprint "XB-BC-12-2P170-08"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "XB-BC-12-2P170-08 2-contact SMD connector. Footprint from recommended PCB layout screenshot: DIM A=4.00mm, 2 rows, pad 2.20x1.70mm, 2.00mm pitch.")
+	(tags "battery connector 2P spring contact XB-BC-12-2P170-08")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "240e9871-a280-4101-9e69-316ce7b78571")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XB-BC-12-2P170-08"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e78c050-35b6-406d-9595-e9b81c9b5f4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9491f3c2-61e0-42a4-876b-5d89f0e13976")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2-contact SMD connector, 2.00mm row pitch, 2.20x1.70mm pads"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1918c338-3373-4c7d-a581-e6536bff687a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.075 -2)
+		(end -3.075 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1d53102-0e81-416c-95a7-09a03dc8175e")
+	)
+	(fp_line
+		(start -3.075 -2)
+		(end 2.925 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7564edba-c3e9-41c7-9720-ab9711636f9f")
+	)
+	(fp_line
+		(start -3.075 2)
+		(end 2.925 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf9cf1ef-1afc-42ba-a201-9a984ce1300e")
+	)
+	(fp_circle
+		(center 0.45 -2.35)
+		(end 0.57 -2.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4b2f3ca3-f4b9-46cc-819c-6ce6a080d4eb")
+	)
+	(fp_line
+		(start -3.325 -2.25)
+		(end 3.325 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de1ff200-3af3-4e45-81f1-238114c74b69")
+	)
+	(fp_line
+		(start -3.325 2.25)
+		(end -3.325 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9dc7ca0-d929-45ed-8a0c-4d06c8da0487")
+	)
+	(fp_line
+		(start 3.325 -2.25)
+		(end 3.325 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4dacce4-63f9-4d54-9c28-3d14bd2d1af3")
+	)
+	(fp_line
+		(start 3.325 2.25)
+		(end -3.325 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7359f405-c3f6-4bc0-8959-6ff2fa85eabf")
+	)
+	(fp_line
+		(start -3.075 -2)
+		(end 2.925 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9bcae17e-ce2c-48fe-9efa-8634906eb379")
+	)
+	(fp_line
+		(start -3.075 2)
+		(end -3.075 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d47cc91-18d5-4c15-84cf-f4b0b907904d")
+	)
+	(fp_line
+		(start 0.875 -1.85)
+		(end 0.875 -0.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eeaa53ba-10c1-40f0-bc62-9fc376bd5938")
+	)
+	(fp_line
+		(start 0.875 -0.15)
+		(end 3.075 -0.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a514397-1cee-4e1c-9834-4c3ba9ce1c96")
+	)
+	(fp_line
+		(start 0.875 0.15)
+		(end 0.875 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1ba0e91-4595-47c1-9167-ab59b13d1011")
+	)
+	(fp_line
+		(start 0.875 1.85)
+		(end 3.075 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d3ac7aa-d09a-4aff-80d9-f8aa0601dc0f")
+	)
+	(fp_line
+		(start 2.925 -2)
+		(end 2.925 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "570bf751-ce37-4d00-8b33-6d8fdbab0ece")
+	)
+	(fp_line
+		(start 2.925 2)
+		(end -3.075 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f433eb60-87ec-4f4a-bb2c-60e551d79036")
+	)
+	(fp_line
+		(start 3.075 -1.85)
+		(end 0.875 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7608bdd0-2227-4283-9f6a-c60910c6335c")
+	)
+	(fp_line
+		(start 3.075 -0.15)
+		(end 3.075 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a102e1a-b78c-419b-9aac-a07b7b140b9c")
+	)
+	(fp_line
+		(start 3.075 0.15)
+		(end 0.875 0.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16148d8a-e7d1-4869-b33a-79ea9f0c8004")
+	)
+	(fp_line
+		(start 3.075 1.85)
+		(end 3.075 0.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be533092-ecf3-49c6-b0d7-f87940cf31cd")
+	)
+	(pad "1" smd rect
+		(at 1.975 -1)
+		(size 2.2 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "1f284e90-47b8-403a-b3af-b6cc8a02f5dc")
+	)
+	(pad "2" smd rect
+		(at 1.975 1)
+		(size 2.2 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "e07b91ec-f503-406d-bec8-aa90a1adf702")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib_10/3dmodels/XB-BC-12-2P170-08.step"
+		(offset
+			(xyz 0.2 -1 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

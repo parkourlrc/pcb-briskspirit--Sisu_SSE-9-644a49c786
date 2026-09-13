@@ -1,0 +1,21 @@
+* text=auto
+
+*.csv text eol=lf
+*.drl text eol=lf
+*.gbr text eol=lf
+*.gbrjob text eol=lf
+*.kicad_dru text eol=lf
+*.kicad_mod text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_pro text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_sym text eol=lf
+*.md text eol=lf
+
+*.png binary
+*.step binary
+*.STEP binary
+*.stp binary
+*.STP binary
+*.xlsx binary
+*.zip binary
